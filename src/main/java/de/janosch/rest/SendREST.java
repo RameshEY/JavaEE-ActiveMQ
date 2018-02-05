@@ -17,5 +17,4 @@ public class SendREST {
     public void sendTestMessage(@QueryParam("message") String message) throws Exception {
         activeMQSender.sendMessage(message);
     }
-
 }
